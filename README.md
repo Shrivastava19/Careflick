@@ -6,7 +6,7 @@ A full-featured **React + TypeScript** Care Management Dashboard built as part o
 
 ## 🚀 Live Demo
 
-> Deploy to Vercel/Netlify and paste your link here.
+https://jocular-souffle-2ea272.netlify.app/
 
 ---
 
