@@ -126,42 +126,6 @@ Outputs to `build/` — ready to deploy.
 
 ---
 
-## 🌐 Deploying to Vercel
-
-### Method 1: Vercel CLI
-
-```bash
-# Install Vercel CLI globally
-npm install -g vercel
-
-# Inside the project directory
-vercel
-
-# Follow the prompts:
-# - Link to existing project? → No
-# - Project name → careflick-dashboard
-# - Root directory → ./  (press Enter)
-# - Build command → npm run build  (press Enter)
-# - Output directory → build  (press Enter)
-
-# For production deployment:
-vercel --prod
-```
-
-### Method 2: GitHub + Vercel Dashboard
-
-1. Push code to GitHub: `git push origin main`
-2. Go to [vercel.com](https://vercel.com) → **New Project**
-3. Import your GitHub repository
-4. Settings:
-   - **Framework Preset**: Create React App
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `build`
-5. Click **Deploy**
-
-The `vercel.json` file handles SPA routing automatically.
-
----
 
 ## 🎨 Design Decisions
 
